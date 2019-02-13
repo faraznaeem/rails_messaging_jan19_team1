@@ -1,6 +1,6 @@
 Given("I am on the landing page") do
-    pending # Write code here that turns the phrase above into concrete actions
-  end
+  visit 'welcome/index'
+end
   
   Given("I click on the {string} button") do |string|
     pending # Write code here that turns the phrase above into concrete actions
