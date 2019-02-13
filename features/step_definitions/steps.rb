@@ -10,11 +10,12 @@ end
     fill_in y, with: x
   end
   
-  Then("I will ittrtn {string} with my {string}") do |string, string2|
-    pending # Write code here that turns the phrase above into concrete actions
+  Then("I will in {string} with my {string}") do |string, string2|
+    fill_in string, with: 'password'
+
   end
 
-  
+
   Then("I should see {string}") do |string|
-    pending # Write code here that turns the phrase above into concrete actions
+    # Successfully logged in.
   end
