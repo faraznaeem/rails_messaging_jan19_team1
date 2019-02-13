@@ -6,11 +6,11 @@ end
     click_on(string)
   end
   
-  Then("I fill in {string} with my {string}") do |string, string2|
-    pending # Write code here that turns the phrase above into concrete actions
+  Then("I fill in {string} with my {string}") do |y, x|
+    fill_in y, with: x
   end
   
-  Then("I will in {string} with my {string}") do |string, string2|
+  Then("I will ittrtn {string} with my {string}") do |string, string2|
     pending # Write code here that turns the phrase above into concrete actions
   end
 
